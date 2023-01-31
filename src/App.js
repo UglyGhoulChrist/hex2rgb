@@ -38,7 +38,9 @@ function App() {
   return (
     <div className="App">
       <form className="form">
+        <label>Введите цвет в HEX</label>
         <input
+          placeholder="#444444"
           className="form__input"
           value={inputHexColor}
           onChange={(e) => setInputHexColor(e.target.value)}
